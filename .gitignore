@@ -1,0 +1,63 @@
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+application-local.yml
+application-local.properties
+
+# =========================
+# Logs
+# =========================
+logs/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# ML Artifacts
+# =========================
+artifacts/
+*.joblib
+
+# Jupyter / data samples
+.ipynb_checkpoints/
+*.csv
